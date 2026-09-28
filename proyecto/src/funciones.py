@@ -39,6 +39,8 @@ def recibir_columnas (rol,columnas,lista_roles):
     
     else:
         print ('el rol de ', rol ,' no se encuentra en la lista')
+        print('' \
+        '')
     
     #fin de la funcion recibir_columnas
 
@@ -47,8 +49,7 @@ def informar_no_especificados (columnas):
        no se encuentra en la lista, se imprimen todas las columnas
        ordenadas por completitud, de forma descendente.'''
     
-    print ('el rol ingresado no se encuentra en la lista, mostrando' \
-    ' todas las columnas ordenadas por completitud de forma descendente')
+    print ('mostrando todas las columnas ordenadas por completitud de forma descendente')
     print (sorted (columnas.items(), key=lambda item: item[1][1], reverse = True))
  
 
