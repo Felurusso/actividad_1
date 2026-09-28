@@ -1,1 +1,0 @@
-# actividad-practica-1
